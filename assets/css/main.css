@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#yourPets {
+  width: 100%;
+  min-height: 650px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://preview.colorlib.com/theme/petvet/images/bg_1.jpg");
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#yourPets .container {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#yourPets .container .yourPetsAbout {
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#yourPets .container .yourPetsAbout h1 {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  color: #000;
+  width: 60%;
+}
+#yourPets .container .yourPetsAbout p {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: rgb(153, 153, 153);
+  width: 70%;
+}
+#yourPets .container .yourPetsAbout .makeBtns {
+  display: flex;
+  gap: 10px;
+}
+#yourPets .container .yourPetsAbout .makeBtns .makeAppointment {
+  border: none;
+  background-color: #FD4C82;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  height: 50px;
+  width: 15%;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+#yourPets .container .yourPetsAbout .makeBtns .numberBtn {
+  border: none;
+  background-color: rgb(145, 194, 53);
+  color: #fff;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+  width: 15%;
+}
+#yourPets .container .yourPetsAbout .makeBtns .numberBtn:hover {
+  border: 1px solid rgb(145, 194, 53);
+  background-color: transparent;
+  color: rgb(145, 194, 53);
+  transition: 0.4s ease;
+}
+
+#services {
+  min-height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F8F9FA;
+}
+#services .conatiner {
+  width: 75%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#services .conatiner .veterinaryServiceCon {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: -200px;
+}
+#services .conatiner .veterinaryServiceCon .veterinaryService {
+  width: 30%;
+  height: 100px;
+  padding: 15px;
+  border-radius: 5px;
+  gap: 10px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#services .conatiner .veterinaryServiceCon .veterinaryService i {
+  color: #FD4C82;
+  font-size: 25px;
+  background-color: #F8F9FA;
+  width: 50px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+#services .conatiner .veterinaryServiceCon .veterinaryService .veterinaryServiceAbout {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+#services .conatiner .veterinaryServiceCon .veterinaryService .veterinaryServiceAbout h4 {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+}
+#services .conatiner .veterinaryServiceCon .veterinaryService .veterinaryServiceAbout p {
+  color: #d4d9dd;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+#bestAgency {
+  min-height: 650px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F8F9FA;
+}
+#bestAgency .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 75%;
+}
+#bestAgency .container .petImg {
+  width: 40%;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#bestAgency .container .petImg img {
+  width: 100%;
+}
+#bestAgency .container .bestAgencyAbout {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#bestAgency .container .bestAgencyAbout span {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 12px;
+  color: #FD4C82;
+  font-weight: 900;
+}
+#bestAgency .container .bestAgencyAbout h3 {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 40px;
+  color: #000;
+  font-weight: 700;
+}
+#bestAgency .container .bestAgencyAbout p {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(153, 153, 153);
+  font-family: Roboto, Arial, sans-serif;
+}
+#bestAgency .container .bestAgencyAbout .qualified {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+#bestAgency .container .bestAgencyAbout .qualified .qualifiedMini {
+  display: flex;
+  gap: 7px;
+}
+
+@media screen and (max-width: 1140px) and (min-width: 300px) {
+  #yourPets .container .yourPetsAbout h1 {
+    width: 100%;
+    font-size: 40px;
+  }
+  #yourPets .container .yourPetsAbout p {
+    font-size: 15px;
+    width: 80%;
+  }
+  #yourPets .container .yourPetsAbout .makeBtns {
+    flex-direction: column;
+  }
+  #yourPets .container .yourPetsAbout .makeBtns .makeAppointment {
+    width: 100%;
+  }
+  #yourPets .container .yourPetsAbout .makeBtns .numberBtn {
+    width: 100%;
+    padding: 15px;
+  }
+  #services .conatiner .veterinaryServiceCon {
+    flex-direction: column;
+    gap: 15px;
+  }
+  #services .conatiner .veterinaryServiceCon .veterinaryService {
+    width: 100%;
+  }
+  #bestAgency .container {
+    flex-direction: column;
+    gap: 15px;
+  }
+  #bestAgency .container .petImg {
+    width: 80%;
+  }
+  #bestAgency .container .bestAgencyAbout {
+    width: 80%;
+  }
+  #bestAgency .container .bestAgencyAbout span {
+    font-size: 10px;
+  }
+  #bestAgency .container .bestAgencyAbout h3 {
+    font-size: 20px;
+  }
+  #bestAgency .container .bestAgencyAbout p {
+    font-size: 10px;
+  }
+}
